@@ -25,16 +25,6 @@ CLID (Controlled Low-light Image Dataset) is a dataset for low-light image enhan
 - Automatic camera corrections disabled and white balance fixed manually to avoid compensating for illumination changes
 - ISO constrained to **100–400** to balance realism and noise control
 
-## Example Images
-
-**Figure 1 — INC (Incandescent) illumination.** Images (a)–(e) show low-light captures with increasing illumination intensity; (f) is the full-illumination reference image for the scene.
-
-![CLID Figure 1 — INC lighting examples](images/clid1.jpg)
-
-**Figure 2 — CWF (Cool White Fluorescent) illumination.** Images (a)–(e) show low-light captures with increasing illumination intensity; (f) is the full-illumination reference image for the scene.
-
-![CLID Figure 2 — CWF lighting examples](images/clid2.jpg)
-
 ## Applications
 
 CLID supports controlled benchmarking of low-light image enhancement methods along independent illumination dimensions (light type, intensity, number of sources), as well as other illumination-sensitive computer vision tasks such as recognition, detection, and perceptual quality assessment.
