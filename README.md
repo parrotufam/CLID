@@ -206,7 +206,7 @@ The controlled acquisition protocol allows enhancement methods to be evaluated a
 
 CLID was evaluated as a benchmark for **low-light image enhancement under controlled illumination conditions**.
 
-The benchmark considers a low-light image \(I_{low}\) and its corresponding full-illumination reference \(I_{ref}\). An enhancement method produces an enhanced image:
+The benchmark considers a low-light image $I_{low}$ and its corresponding full-illumination reference \$I_{ref}$. An enhancement method produces an enhanced image:
 
 $$
 \hat{I} = f(I_{low})
