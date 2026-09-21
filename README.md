@@ -75,10 +75,19 @@ This organization preserves the direct correspondence between each low-light obs
 
 ## Dataset Examples
 
-![CLID Low-Light Examples](img/INC.png)
+The following examples illustrate the controlled illumination conditions used during image acquisition.
 
+### INC — Incandescent Illumination
 
-![CLID Reference Examples](img/CWF.png)
+![CLID INC examples](img/INC.png)
+
+**Figure 1.** Example images from CLID captured under controlled **INC (Incandescent)** illumination. Images (a)–(e) represent different illumination levels, while image (f) corresponds to the reference image for the scene.
+
+### CWF — Cool White Fluorescent Illumination
+
+![CLID CWF examples](img/CWF.png)
+
+**Figure 2.** Example images from CLID captured under controlled **CWF (Cool White Fluorescent)** illumination. Images (a)–(e) represent different illumination levels, while image (f) corresponds to the reference image for the scene.
 
 ---
 
@@ -129,7 +138,22 @@ The acquisition protocol included:
 
 These procedures were adopted to reduce variations unrelated to illumination and maintain consistency across images acquired under different lighting conditions.
 
-![CLID Acquisition Setup](img/setup.png)
+<table>
+  <tr>
+    <td align="center">
+      <img src="img/setup.png" alt="Controlled lighting system" width="400"/>
+    </td>
+    <td align="center">
+      <img src="img/camera.png" alt="Camera setup" width="400"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">Controlled lighting system</td>
+    <td align="center">Camera setup</td>
+  </tr>
+</table>
+
+**Figure 3.** Experimental setup used for CLID image acquisition, including the controlled lighting system and camera positioning.
 
 ---
 
@@ -221,13 +245,26 @@ All methods were evaluated in a **zero-shot setting**, using publicly available 
 
 ### Evaluation Metrics
 
-The benchmark uses both full-reference and no-reference image quality metrics.
+The benchmark uses both **full-reference** and **no-reference** image quality metrics.
+
+| Category       | Metric      | Description                            | Direction          |
+| -------------- | ----------- | -------------------------------------- | ------------------ |
+| Full-reference | **PSNR**    | Pixel-level reconstruction fidelity    | ↑ Higher is better |
+| Full-reference | **SSIM**    | Structural similarity                  | ↑ Higher is better |
+| Full-reference | **LPIPS**   | Deep perceptual similarity             | ↓ Lower is better  |
+| Full-reference | **DISTS**   | Deep structural and texture similarity | ↓ Lower is better  |
+| No-reference   | **NIQE**    | Natural image quality assessment       | ↓ Lower is better  |
+| No-reference   | **BRISQUE** | Blind image spatial quality assessment | ↓ Lower is better  |
+
+Full-reference metrics compare the enhanced output with its corresponding reference image, while no-reference metrics evaluate the perceptual characteristics of the enhanced output without requiring a reference image.
 
 ### Quantitative Results
 
 The quantitative evaluation is performed across the evaluation set, with each metric computed independently for each image and then averaged across the evaluated samples.
 
 ![CLID Quantitative Results](img/results.png)
+
+**Figure 4.** Quantitative benchmark results obtained on CLID using full-reference and no-reference image quality metrics.
 
 The reported benchmark results are based on the experiments presented in the associated publication.
 
@@ -236,6 +273,8 @@ The reported benchmark results are based on the experiments presented in the ass
 The qualitative evaluation compares the enhanced outputs with the corresponding full-illumination references and examines representative regions containing textured, chromatic, and extremely dark areas.
 
 ![CLID Benchmark Results](img/benchmark.png)
+
+**Figure 5.** Qualitative comparison of low-light image enhancement methods on CLID. The comparison includes the low-light input, enhanced outputs, and the corresponding full-illumination reference.
 
 The qualitative examples illustrate different restoration behaviors under controlled low-light conditions, including color shifts, saturation, residual under-exposure, smoothing, and artifact amplification.
 
