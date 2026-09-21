@@ -1,4 +1,4 @@
-# CLID — Controlled Low-Light Image Dataset
+# CLID - Controlled Low-Light Image Dataset
 
 CLID (Controlled Low-light Image Dataset) is a dataset designed for **low-light image enhancement research**, in which illumination is treated as an **explicitly controlled variable during image acquisition** rather than being simulated through exposure manipulation or synthetic degradation.
 
