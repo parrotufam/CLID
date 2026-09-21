@@ -87,13 +87,13 @@ This organization preserves the direct correspondence between each low-light obs
 
 The following examples illustrate the controlled illumination conditions used during image acquisition.
 
-### INC — Incandescent Illumination
+### INC
 
 ![CLID INC examples](img/INC.png)
 
 **Figure 1.** Example images from CLID captured under controlled **INC (Incandescent)** illumination. Images (a)–(e) represent different illumination levels, while image (f) corresponds to the reference image for the scene.
 
-### CWF — Cool White Fluorescent Illumination
+### CWF
 
 ![CLID CWF examples](img/CWF.png)
 
@@ -109,8 +109,8 @@ Images were acquired using the **SpectriWave® Manual Reflective Lighting system
 
 Two illumination types were considered:
 
-* **INC (Incandescent)** — warm illumination
-* **CWF (Cool White Fluorescent)** — representative of office and laboratory environments
+* **INC (Incandescent)** - warm illumination
+* **CWF (Cool White Fluorescent)** - representative of office and laboratory environments
 
 For each illumination type, the intensity and number of active light sources were systematically varied. The illumination types were not mixed within a single acquisition.
 
