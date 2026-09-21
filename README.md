@@ -185,22 +185,6 @@ These materials introduce different light interactions, including reflection, ab
 
 ---
 
-## Reference Images
-
-For each low-light configuration, CLID provides a corresponding reference image acquired under **full or near-full illumination**.
-
-Reference images are **physically acquired** rather than synthetically generated. This establishes a direct correspondence between the controlled illumination conditions and the reference appearance.
-
-The paired structure enables:
-
-* Supervised low-light enhancement
-* Full-reference image quality evaluation
-* Quantitative benchmarking
-* Perceptual comparison
-* Illumination-aware image analysis
-
----
-
 ## Applications
 
 CLID can be used for research in:
