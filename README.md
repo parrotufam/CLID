@@ -1,17 +1,19 @@
 <div align="center">
     
-# CLID - Controlled Low-Light Image Dataset
+# CLID: Controlled Low-Light Image Dataset
 
 </div>
 
-CLID (Controlled Low-light Image Dataset) is a dataset designed for **low-light image enhancement research**, in which illumination is treated as an **explicitly controlled variable during image acquisition** rather than being simulated through exposure manipulation or synthetic degradation.
+CLID is a dataset designed for **low-light image enhancement research**, in which illumination is treated as an **explicitly controlled variable during image acquisition** rather than being simulated through exposure manipulation or synthetic degradation.
 
 The dataset provides paired low-light and reference RGB images acquired under controlled physical illumination conditions, enabling reproducible and fine-grained analysis of how different lighting factors affect image formation and the performance of low-light image enhancement methods.
 
-CLID comprises **1,250 image pairs across 125 distinct scenes**, with systematic variations in illumination type, illumination intensity, and number of active light sources. Low-light conditions are physically produced during image acquisition, while the corresponding reference images are captured under full or near-full illumination.
+CLID comprises **1250 image pairs across 125 distinct scenes**, with systematic variations in illumination type, illumination intensity, and number of active light sources. Low-light conditions are physically produced during image acquisition, while the corresponding reference images are captured under full or near-full illumination.
 
 ---
 
+<div align="center">
+    
 ## Dataset Overview
 
 | Property                 | Description                               |
@@ -28,6 +30,8 @@ CLID comprises **1,250 image pairs across 125 distinct scenes**, with systematic
 | **Low-light generation** | Physical illumination control             |
 | **Reference images**     | Full or near-full illumination            |
 | **Data split**           | TRAIN / TEST                              |
+
+</div>
 
 The original images were captured at **2400 × 1344 pixels** and stored in JPEG format. A resized version at **600 × 336 pixels** is also provided to facilitate training and experimentation. The dataset is divided into disjoint training and testing sets.
 
@@ -49,12 +53,16 @@ CLID/
     └── REFERENCE/
 ```
 
+<div align="center">
+    
 | Directory    | Description                                                                   |
 | ------------ | ----------------------------------------------------------------------------- |
 | `TRAIN/`     | Training split of the dataset.                                                |
 | `TEST/`      | Testing split used for evaluation and benchmarking.                           |
 | `RAW/`       | Low-light images acquired under controlled illumination conditions.           |
 | `REFERENCE/` | Corresponding reference images acquired under full or near-full illumination. |
+
+</div>
 
 Each image in `RAW/` has a corresponding image with the **same filename** in `REFERENCE/`.
 
