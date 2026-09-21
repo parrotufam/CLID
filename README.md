@@ -6,8 +6,15 @@ The dataset provides paired low-light and reference RGB images acquired under co
 
 CLID comprises **1,250 image pairs across 125 distinct scenes**, with systematic variations in illumination type, illumination intensity, and number of active light sources. Low-light conditions are physically produced during image acquisition, while the corresponding reference images are captured under full or near-full illumination.
 
-**Dataset Variant**: CLID also includes a variant named CID-LIE (Controlled Illumination Dataset for Low-Light Image Enhancement), the **CID-LIE dataset** is available at the [![CID-LIE Dataset](https://img.shields.io/badge/CID--LIE-Dataset-179bd3)](https://github.com/parrotufam/CID-LIE)
+<div align="center">
 
+### Dataset Variant: CID-LIE
+
+A variant of this dataset is available as **CID-LIE (Controlled Illumination Dataset for Low-Light Image Enhancement)**.
+
+[![CID-LIE Dataset](https://img.shields.io/badge/CID--LIE-Dataset-179bd3)](https://github.com/parrotufam/CID-LIE)
+
+</div>
 ---
 
 ## Dataset Overview
