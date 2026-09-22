@@ -150,20 +150,31 @@ The acquisition protocol included:
 
 These procedures were adopted to reduce variations unrelated to illumination and maintain consistency across images acquired under different lighting conditions.
 
-<table>
+<div align="center">
+
+<table border="0">
   <tr>
     <td align="center">
-      <img src="img/setup.png" alt="Controlled lighting system" width="400"/>
+      <img src="img/LuzCWF.png" width="115"/>
+      <img src="img/LuzINC.png" width="100"/>
+      <img src="img/SistemaLuz.png" width="165"/>
     </td>
     <td align="center">
-      <img src="img/camera.png" alt="Camera setup" width="400"/>
+      <img src="img/camera.png" width="260"/>
     </td>
   </tr>
+
   <tr>
-    <td align="center">Controlled lighting system</td>
-    <td align="center">Camera setup</td>
+    <td align="center">
+      <b>Controlled lighting system</b>
+    </td>
+    <td align="center">
+      <b>Camera setup</b>
+    </td>
   </tr>
 </table>
+
+</div>
 
 **Figure 3.** Experimental setup used for CLID image acquisition, including the controlled lighting system and camera positioning.
 
@@ -296,9 +307,10 @@ If you use CLID in your research, please cite:
 
 <div align="center">
 
-### Dataset Variant: CID-LIE
+### Dataset Variant: 
+### **CID-LIE**
 
-A variant of this dataset is available as **CID-LIE (Controlled Illumination Dataset for Low-Light Image Enhancement)**.
+The research group also explored an alternative perspective of the collected data, resulting in **CID-LIE (Controlled Illumination Dataset for Low-Light Image Enhancement)**.
 
 [![CID-LIE Dataset](https://img.shields.io/badge/CID--LIE-Dataset-179bd3)](https://github.com/parrotufam/CID-LIE)
 
